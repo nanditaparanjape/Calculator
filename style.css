@@ -1,0 +1,54 @@
+
+.output{
+    font-size: 30px;
+    width: 42%;
+    
+}
+.output-box{
+    width: 42%;
+
+}
+
+.line {
+    border-bottom: 1px solid #888;
+  }
+  
+.buttonContainer{
+    padding-left: 650px;
+    padding-top: 350px;
+}
+
+.button{
+    background-color: grey;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 90%;
+}
+.buttonOrange{
+    background-color: orange;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 37px;
+    text-align: center;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 90%;
+}
+.operator{
+    background-color: #d3d3d3;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 37px;
+    text-align: center;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 90%;
+}
+

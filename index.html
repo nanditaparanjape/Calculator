@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script> 
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="buttonContainer">
+        <div class="output-box">
+            <p class="output" id="output"></p>
+            <hr class="line">
+        </div>
+        
+        <div class="button-container">
+            <button onclick=sevenF() id="7" class="button" name="7">7</button>
+            <button onclick=eightF() id="8" class="button" name="8">8</button>
+            <button onclick=nineF() id="9" class="button" name="9">9</button>
+            <button onclick=addF() id="+" class="operator" name="+" style="padding-left:40px; padding-right: 40px;">+</button> 
+
+        </div>
+        <div class="button-container">
+            <button onclick=fourF() id="4" class="button" name="4">4</button>
+            <button onclick=fiveF() id="5" class="button" name="5">5</button>
+            <button onclick=sixF() id="6" class="button" name="6">6</button>
+            <button onclick=subtractF() id="-" class="operator" name="-" style="padding-left:46px; padding-right: 46px;">-</button> 
+        </div>
+        <div class="button-container">
+            <button onclick=oneF() id="1" class="button" name="1">1</button>
+            <button onclick=twoF() id="2" class="button" name="2">2</button>
+            <button onclick=threeF() id="3" class="button" name="3">3</button>
+            <button onclick=divideF() id="/" class="operator" name="/" style="padding-left:46px; padding-right: 49px;">/</button> 
+        </div>
+        <div class="button-container">
+            <button onclick=zeroF() id="0" class="button" name="0">0</button>
+            <button onclick=clears() id="C" class="buttonOrange" name="C" style="padding-left:35px; padding-right: 37px;">C</button>
+            <button onclick=equals() id="=" class="buttonOrange" name="=" style="padding-left:39px; padding-right: 39px;">=</button>
+            <button onclick=multiplyF() id="*" class="operator" name="*" style="padding-left:45px; padding-right: 45px;">*</button> 
+        </div>
+
+    </div>
+    
+
+     <!-- <div class="container">
+        <div class="plus">  
+            <button id="button" class="operator" name="+">+</button> 
+        </div>
+        <div class="minus">
+            <button id="button" class="operator" name="-">-</button> 
+        </div>
+        <div class="divide">
+            <button id="button" class="operator" name="/">/</button> 
+        </div>
+        <div class="multiply">
+            <button id="button" class="operator" name="*">*</button> 
+        </div>
+
+        <div class="equal">
+            <button id="button" class="operator" name="=">=</button> 
+        </div>
+        <div class="seven">
+            <button id="button" class="button" name="7">7</button> 
+        </div>
+        <div class="eight">
+            <button id="button" class="button" name="8">8</button> 
+        </div>
+        <div class="nine">
+            <button id="button" class="button" name="9">9</button> 
+        </div>
+        <div class="four">
+            <button id="button" class="button" name="4">4</button> 
+        </div>
+        <div class="five">
+            <button id="button" class="button" name="5">5</button> 
+        </div>
+        <div class="six">
+            <button id="button" class="button" name="6">6</button> 
+        </div>
+        <div class="one">
+            <button id="button" class="button" name="1">1</button> 
+        </div>
+        <div class="two">
+            <button id="button" class="button" name="2">2</button> 
+        </div>
+        <div class="three">
+            <button id="button" class="button" name="3">3</button> 
+        </div>
+        <div class="zero">
+            <button id="button" class="button" name="0">0</button> 
+        </div>
+        <div class="decimal">
+            <button id="button" class="button" name=".">.</button> 
+        </div>
+        <div class="clear">
+              <button id="button" class="button" name="7">7</button> 
+        </div>
+      </div> -->
+
+
+    
+</body>
+</html>
